@@ -5,7 +5,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-    entry: './src/App.jsx',
+    entry: './src/index.jsx',
     output: {
         filename: 'App-[fullhash].js',
         path: path.resolve(__dirname, 'dist'),
